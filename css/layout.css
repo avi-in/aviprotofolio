@@ -34,7 +34,7 @@ header {
 
   /* background: rgba(77, 119, 78, 1); */
   
-  background: #161415 url(../images/background.bg.jpg) no-repeat top center;
+  background: #161415 url(../images/header-background.jpg) no-repeat top center;
 
    /*background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(66,26,69,0.9444152661064426) 94%); */
   /* background: radial-gradient(circle, rgb(82, 190, 172)) 20%, rgba(77, 119, 78, 1) 20%); */
@@ -851,7 +851,7 @@ call-to-action .button {
 .flexslider .slides > li { position: relative; }
 
 /* Hide the slides before the JS is loaded. Avoids image jumping */
-.flexslider .slides > li { display: none; -webkit-backface-visibility:hidden; }
+.flexslider .slides > li { display: none; -webkit-backface-visibility:hidden; backface-visibility:hidden;}
 /* Suggested container for slide animation setups. Can replace this with your own */
 .flex-container { zoom: 1; position: relative; }
 
