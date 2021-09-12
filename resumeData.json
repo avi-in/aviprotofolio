@@ -1,0 +1,132 @@
+{
+  "main": {
+    "name": "Vikash Mishra",
+    "occupation": "A Web Developer",
+    "description": "I always prefer to transform ideas into visiual reality through Web Development, Especially in React Style.I invite you to explore my site to get a better understanding of my specialties, technique and professional experience.",
+    "image": "profilepic.jpg", 
+    "contactmessage": "Get in touch with me to be a part of fam!",
+    "bio": "Hi there! I am Vikash Mishra! You might also know me as AVI. I've started coding for past years. Since beginning my journey in this field, my dedication to the work and motivation to grow have led me to exceptional projects and experiences. Take a moment to explore my portfolio below, which includes a combination of collaborations, commissioned work and side projects. Don’t hesitate to reach out if you’d like to learn more.",
+    "email": "avi@gmail.com",
+    "phone": "8888888888",
+    "address": {
+      "street": "H-No 30",
+      "city": "Ara",
+      "state": "Bihar",
+      "zip": "802207"
+    },
+    "website": "https://www.connecting.com",
+    "resumedownload": "http://resume.com",
+    "social": [
+      {
+        "name": "youtube",
+        "url": "https://www.youtube.com",
+        "className": "fa fa-youtube"
+      },
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "My Programming Language Proficiency",
+    "education": [
+      {
+        "school": "Lakshmi Narain College of Technology, Bhopal",
+        "degree": "Bachelor's Degree, Electronics & Communication Eng",
+        "graduated": "July 2020",
+        "description": "Graduated with First Class Honours"
+      }
+    ],
+    "work": [
+      {
+        "company": "AVI",
+        "title": "WEB Developer",
+        "years": "AUG 2020 - Present",
+        "description": "Making things possible with collaboration and dedication of AVI."
+      }
+    ],
+    "skills": [
+      {
+        "name": "ReactJs",
+        "level": "100%"
+      },
+      {
+        "name": "Java",
+        "level": "94%"
+      },
+      {
+        "name": "Python",
+        "level": "80%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "89%"
+      },
+      {
+        "name": "GCP",
+        "level": "82%"
+      },
+      {
+        "name": "Web Development",
+        "level": "95%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "In Progress",
+        "category": "",
+        "image": "snapchat.jpg",
+        "url": "www.google.com"
+      },
+      {
+        "title": "In Progress",
+        "category": "",
+        "image": "gmail.jpg",
+        "url": "https://aviblog.wixsite.com/aviblog"
+      },
+      {
+        "title": "In progress",
+        "category": "",
+        "image": "linkedin.jpg",
+        "url": "#"
+      },
+      {
+        "title": "In Progress",
+        "category": "",
+        "image": "gmail.jpg",
+        "url": "#"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "There are only two kinds of people who are really fascinating-people who know absolutely everything, and people who know absolutely nothing",
+        "user": "Oscar Wilde"
+      },
+      {
+        "text": "Learning by doing is always a great way of learning. I would like to say just two words and that words are Learn...  Learn... Learn... and Implements....",
+        "user": "AADGERS"
+      }
+    ]
+  }
+}

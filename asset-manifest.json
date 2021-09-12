@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/aviprotofolio/static/css/main.bb289cb2.chunk.css",
+    "main.js": "/aviprotofolio/static/js/main.b288d359.chunk.js",
+    "main.js.map": "/aviprotofolio/static/js/main.b288d359.chunk.js.map",
+    "runtime-main.js": "/aviprotofolio/static/js/runtime-main.43728d75.js",
+    "runtime-main.js.map": "/aviprotofolio/static/js/runtime-main.43728d75.js.map",
+    "static/js/2.b18ec3af.chunk.js": "/aviprotofolio/static/js/2.b18ec3af.chunk.js",
+    "static/js/2.b18ec3af.chunk.js.map": "/aviprotofolio/static/js/2.b18ec3af.chunk.js.map",
+    "index.html": "/aviprotofolio/index.html",
+    "static/css/main.bb289cb2.chunk.css.map": "/aviprotofolio/static/css/main.bb289cb2.chunk.css.map",
+    "static/js/2.b18ec3af.chunk.js.LICENSE.txt": "/aviprotofolio/static/js/2.b18ec3af.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.43728d75.js",
+    "static/js/2.b18ec3af.chunk.js",
+    "static/css/main.bb289cb2.chunk.css",
+    "static/js/main.b288d359.chunk.js"
+  ]
+}
