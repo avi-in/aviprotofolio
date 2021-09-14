@@ -19,8 +19,7 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-
-body{background:  rgb(204, 6, 171);} 
+body{background:#00CBA9;}
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
 /* ------------------------------------------------------------------ */
@@ -326,12 +325,12 @@ width: 0%;
 #about p {
    line-height: 30px;
    text-align: justify;
-   color: #a93b9f;
+   color: #e214edde;
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 200px;
+   height: 200px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -988,8 +987,8 @@ call-to-action .button {
 #contact input:focus,
 #contact textarea:focus,
 #contact select:focus {
-	color: #fff;
-	background-color: #11ABB0;
+	color: rgb(22, 22, 22);
+	background-color: #c0ffff;
 }
 #contact button.submit {
 	text-transform: uppercase;
