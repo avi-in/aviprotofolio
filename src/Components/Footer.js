@@ -22,8 +22,8 @@ const Footer = ({ data }) => {
           <ul className="copyright">
             <li>
               Implemented by AVI with Support of {" "}
-              <a title="PAPA" href="http://www.papareact.com/">
-                Sunny 
+              <a title="AVI" href="http://www.react.com/">
+                React JS 
               </a>
             </li>
           </ul>
