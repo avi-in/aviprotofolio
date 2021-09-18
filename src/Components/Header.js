@@ -1,6 +1,8 @@
 import React from "react";
 import TypeWriter from "react-typewriter";
 
+
+
 const Header = ({ data }) => {
   if (data) {
     var name = data.name;
@@ -55,12 +57,12 @@ const Header = ({ data }) => {
           </li>
           <li>
             <a className="smoothscroll" href="#testimonials">
-              .Testimonials( )
+              .Homage( )
             </a>
           </li>
           <li>
             <a className="smoothscroll" href="#contact">
-              .Contact( )
+            .Contact( )
             </a>
           </li>
         </ul>
@@ -90,6 +92,7 @@ const Header = ({ data }) => {
           <i className="icon-down-circle"></i>
         </a>
       </p>
+     
     </header>
   );
 };

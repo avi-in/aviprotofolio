@@ -29,7 +29,7 @@
    ------------------------------------------------------------------ */
    header .banner { padding-bottom: 12px; }
    header .banner-text h1 {
-      font: 78px/1.1em 'opensans-bold', sans-serif;
+      font: 48px/1.1em 'opensans-bold', sans-serif;
       letter-spacing: -1px;      
    }
    header .banner-text h3 {
@@ -50,8 +50,10 @@
    /* About Section
    ------------------------------------------------------------------- */
    #about .profile-pic {
-      width: 114px;
-      height: 114px;
+   
+      width: 200px;
+      height: 200px;
+      border-radius: 100px;
       margin-left: 12px;
    }
    #about .contact-details { width: 50%; }
@@ -112,7 +114,7 @@
 	   width: 48px;
 		height: 48px;
 		text-align: left;
-		background-color: #CC5200;
+		background-color:#ee0db6;
 		position: relative;
       border: none;
       float: right;
@@ -131,7 +133,7 @@
 	   position: absolute;
 		border: 2px solid #fff;
 		top: 35%;
-		left: 25%;
+		left: 15%;
 		right: 25%;
 		content: '';
 	}
@@ -161,7 +163,7 @@
 	   display: block;
       padding: 30px 20px 48px 20px;
       background: #1f2024;
-      margin: 0 30px;
+      margin: 0 40px;
       clear: both;
    }
 
@@ -176,7 +178,8 @@
    }
   
    ul#nav li a {  
-      display: block;    
+      display: block;
+      width: max-content;    
       margin: 0;
       padding: 0;      
       margin: 12px 0; 
@@ -215,7 +218,12 @@
 
    /* About Section
    -------------------------------------------------------------------- */
-   #about .profile-pic { display: none; }
+   #about .profile-pic { 
+      display:block;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 12px 20px;   
+   }
    #about .download .button {
       width: 100%;
       text-align: center;

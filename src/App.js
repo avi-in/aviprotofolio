@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import About from "./Components/About";
@@ -9,6 +8,7 @@ import Testimonials from "./Components/Testimonials";
 import Portfolio from "./Components/Portfolio";
 
 import "./App.css";
+
 
 const App = () => {
   const [resumeData, setResumeData] = useState({});
@@ -23,7 +23,9 @@ const App = () => {
 
   return (
     <div className="App">
-      <Header data={resumeData.main} />
+      
+      <Header data={resumeData.main}/>
+     
       <About data={resumeData.main} />
       <Resume data={resumeData.resume} />
       <Portfolio data={resumeData.portfolio} />
