@@ -1,5 +1,6 @@
 import React from "react";
 import TypeWriter from "react-typewriter";
+import Typewriter from 'typewriter-effect';
 
 
 
@@ -71,12 +72,25 @@ const Header = ({ data }) => {
       <div className="row banner">
         <div className="banner-text">
           <h1 className="responsive-headline">
-            <TypeWriter typing={0.7}>{name ? ` I'm ${name} ` : null}</TypeWriter>
-            
-          </h1>
+            <TypeWriter typing={0.7}>{name ? `I'm ${name} ` : null}</TypeWriter>
+         </h1>
+          <h2 style={{color: "white"}}>
+          <Typewriter
+             options={{
+             strings: ["Web Developer","React Developer", "Java FullStack Developer"],
+             autoStart: true,
+             loop: true,
+             deleteSpeed: 50
+                       }}
+           />
+          </h2>
 
           <h3>
-          <span>&lt;{occupation}/&gt;</span>. {description}.
+          <span> {/* &lt;{occupation}/&gt; */}
+          
+        
+          
+          </span>{occupation} {description}.
           </h3>
           
           
